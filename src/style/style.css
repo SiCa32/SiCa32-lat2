@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+
+nav, .nav-link{
+  padding: 0;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+#mainContent{
+  overflow: hidden;
+  background-image: url('./src/img/blue.png');
+  background-size: cover no-repeat;
+  weight: 100%;
+}
+
+#mainContent h1{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+#mainContent #title{
+  padding: 60px;
+}
+
+#mainContent #main{
+  padding: 0px 100px 50px 100px;
+}
+
+.card{
+  border-radius: 10px;
+}
+
+.card .card-header{
+  border-radius: 10px;
+}
+
+#mainContent #buttonContent{
+  padding: 50px 50px 0px 50px;
+}
+
+#mainContent #viewMovie{
+  padding: 0px 100px 50px 100px;
+  text-align: left;
+}
+
+#mainContent #footer{
+  padding: 10px 80px 0px 80px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+@media screen and (max-width: 1000px) {
+   nav,
+   button,
+   div{
+       width: 100%;
+       padding: 0;
+   }
+}
